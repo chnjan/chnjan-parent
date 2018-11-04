@@ -319,7 +319,18 @@
 		    <groupId>org.apache.activemq</groupId>
 		    <artifactId>activemq-all</artifactId>
 		    <version>${activemq-version}</version>
-		</dependency>		
+		</dependency>
+		<!-- activemq与spring整合 -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-jms</artifactId>
+		    <version>${spring-version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-messaging</artifactId>
+		    <version>${spring-version}</version>
+		</dependency>
 		
   	</dependencies>
   </dependencyManagement>
